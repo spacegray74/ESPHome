@@ -26,12 +26,6 @@ ota:
   - platform: esphome
     password: "apolloautomation"
 
-
-wifi:
-  power_save_mode: none
-  ap:
-    ssid: "Apollo MSR1 Hotspot"
-
 bluetooth_proxy:
   active: true
 
