@@ -12,11 +12,6 @@ esphome:
       - lambda: |-
           id(radar_bluetooth).turn_off();
 
-  project:
-    name: "ApolloAutomation.MSR-1"
-    version: "${version}"
-
-  min_version: 2024.6.4
 
 dashboard_import:
   package_import_url: github://spacegray74/ESPHome/MSR-1_BLE.yaml
