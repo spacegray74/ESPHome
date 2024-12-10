@@ -1,8 +1,5 @@
 #Define Project
-substitutions:
-  name: apollo-msr-1
-  version:  "24.7.15.1"
-  device_description: ${name} made by Apollo Automation - version ${version}.
+
   
 esphome:
   name: "${name}"
@@ -18,11 +15,6 @@ esphome:
       - lambda: |-
           id(radar_bluetooth).turn_off();
 
-  project:
-    name: "ApolloAutomation.MSR-1"
-    version: "${version}"
-
-  min_version: 2024.6.0
 
 # Define Board
 esp32:
