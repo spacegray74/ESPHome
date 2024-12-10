@@ -19,7 +19,7 @@ esphome:
   min_version: 2024.6.4
 
 dashboard_import:
-  package_import_url: github://ApolloAutomation/MSR-1/Integrations/ESPHome/MSR-1_BLE.yaml
+  package_import_url: github://spacegray74/ESPHome/MSR-1_BLE.yaml
   import_full_config: false
 
 ota:
